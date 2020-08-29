@@ -15,7 +15,7 @@ namespace leave_management.Models
         public DateTime DateCreated { get; set; }
         public EmployeeVm Employee { get; set; }
         public string EmployeeId { get; set; }
-        public DetailsLeaveTypeVm LeaveType { get; set; }
+        public LeaveTypeVm LeaveType { get; set; }
         public int LeaveTypeId { get; set; }
         public IEnumerable<SelectListItem> LeaveTypes { get; set; }
         public IEnumerable<SelectListItem> Employees { get; set; }
